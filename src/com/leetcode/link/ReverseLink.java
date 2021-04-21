@@ -12,12 +12,18 @@ import java.util.concurrent.RecursiveAction;
 public class ReverseLink {
 
     public static ListNode reverseList(ListNode head) {
+        //前指针节点
         ListNode pre = null;
+        //当前指针节点
         ListNode curr = head;
         while (curr != null) {
+            //下一节点暂存,为了节点后移
             ListNode tmp = curr.next;
+            //将下一节点只想前一节点
             curr.next = pre;
+            //前节点指针后移
             pre = curr;
+            //当前指针后移
             curr = tmp;
         }
         return pre;
