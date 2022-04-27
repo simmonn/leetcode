@@ -1,7 +1,6 @@
-package com.leetcode.link;
+package com.leetcode.chain;
 
-import java.util.List;
-import java.util.concurrent.RecursiveAction;
+import com.leetcode.chain.ListNode;
 
 /**
  * 单链翻转.

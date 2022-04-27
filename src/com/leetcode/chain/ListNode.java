@@ -1,4 +1,4 @@
-package com.leetcode.link;
+package com.leetcode.chain;
 
 /**
  * 单链.
