@@ -38,10 +38,15 @@ public class FindPeakElement {
         if (nums.length==2) return nums[0] > nums[1] ? nums[0] : nums[1];
         int mid = 0;
         while (mid < nums.length - 1 && nums[mid]<nums[mid+1]) {
-
             mid++;
         }
         return -1;
+    }
+
+    public static void main(String[] args) throws InterruptedException {
+        System.out.println(Runtime.getRuntime().freeMemory()/1024/1024);
+
+
     }
 
 }
