@@ -1,4 +1,4 @@
-package com.leetcode.chain;
+package com.leetcode.node;
 
 import java.util.ArrayList;
 import java.util.Deque;

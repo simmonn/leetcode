@@ -1,4 +1,4 @@
-package com.leetcode.chain;
+package com.leetcode.node;
 
 /**
  * Definition for singly-linked list.

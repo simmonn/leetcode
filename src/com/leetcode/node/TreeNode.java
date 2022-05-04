@@ -1,4 +1,4 @@
-package com.leetcode.chain;
+package com.leetcode.node;
 
 public class TreeNode {
     public int val;

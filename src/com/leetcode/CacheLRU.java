@@ -4,7 +4,7 @@ import java.util.*;
 
 /**
  * @author: simmon
- * @description: TODO
+ * @description: LRU cache
  * @date: 2020/8/27 22:41
  */
 public class CacheLRU<K, V> {

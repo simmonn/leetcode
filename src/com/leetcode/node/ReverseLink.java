@@ -1,6 +1,4 @@
-package com.leetcode.chain;
-
-import com.leetcode.chain.ListNode;
+package com.leetcode.node;
 
 /**
  * 单链翻转.
